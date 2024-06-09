@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16px; /*predefinido*/
+    color:#2f2f2f
+}
+
+body{
+  margin: 0;
+  background-color: #eaeaea;
+}
+
+.rojo{
+  color:rgb(235, 11, 11);
+}
+.amarillo{
+  background-color: #fcee21;
+  display: inline;
+}
+
+.roboto-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+.coiny-regular {
+    font-family: "Coiny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav{
+  border-top: 8px solid #fcee21;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: gray;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+h1{
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 b{
+  font-family: "Coiny", system-ui;
+  line-height: 1rem;
+  font-size: 7rem;
+}
+
+h1, b{
+  font-size: 4rem; /*evaluar si cambiar por "em" */
+  font-weight: 700;
+}
+
+h2{display: inline;
+  background-color: #fcee21;
+  font-size: 1.6rem;
+}
+
+h3{display: inline;
+  background-color: #fcee21;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h4{
+  display: inline;
+  line-height: 5.5rem;
+  font-size: 3.3rem;
+  background-color: #000;
+  color: #ebebeb;
+}
+
+.negro inv {}
+
+p{
+  font-size: 1.75rem;
+  display: block;
+}
+
+img{width: 100%;}
+
+ol{
+  list-style-position: inside;
+}
+
+ol li{
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+ol li:nth-last-child(1){
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: #fcee21;
+}
+
+input,label,textarea{
+  display: block;
+  font-size: 1.6rem;
+  width: 100%;
+}
+
+label,button{
+  padding-top: 1.2rem;
+}
+textarea{
+  margin-bottom: 1.2rem;
+}
+button{
+  background-color: #000;
+  color: #FFF;
+  font-size: 1.5rem;
+  padding: 8px 26px;
+  border: none;
+}
+
+.en-columa{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.en-columa section{
+  margin: 0 1.5rem 0 1.5rem;
+}
+
+footer{
+  background-color: #fcee21;
+  font-size: 2rem;
+}
+
+
+@media screen and (max-width:980px) {
+  #syj{
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px) {
+  :root{
+    font-size: 10px;
+  }
+
+  .en-columa{
+    flex-direction: column;
+  }
